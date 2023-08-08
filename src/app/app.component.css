@@ -1,0 +1,53 @@
+.left-header {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-left: 25%;    
+    transform: translateX(-50%);
+}
+.right-header {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1A76D2;
+    /* padding: 25px; */
+    /* border-radius: 10%; */
+    /* margin-bottom: 2px; */
+    margin-left: 25%;    
+    /* font-weight: 400; */
+}
+.span-header {
+    font-size: 20px;
+    border-radius: 5%;
+}
+.walletId {
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.loader {
+    height: 4em;
+    display: block;
+    line-height: 4em;
+    text-align: center;
+    position: relative;
+}
+  
+.loader:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: var(--app-primary);
+    animation: loader-animation 2s ease-out infinite;
+}
+
+.button2 {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
